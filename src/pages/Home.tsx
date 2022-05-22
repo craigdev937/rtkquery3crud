@@ -23,7 +23,7 @@ export const Home = (): JSX.Element => {
 
     return (
         <main className="main">
-            <Link to="/add">
+            <Link to="/create">
                 <button 
                     className="btn btn-add"
                     >Add Contact
@@ -71,5 +71,7 @@ export const Home = (): JSX.Element => {
         </main>
     );
 };
+
+
 
 

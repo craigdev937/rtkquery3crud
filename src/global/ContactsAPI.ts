@@ -16,11 +16,11 @@ export const ContactsAPI = createApi({
             query: (id) => `/contacts/${id}`,
             providesTags: ["Contact"],
         }),
-        create: builder.mutation<IContact, IContact>({
-            query: (contact) => ({
+        create: builder.mutation<void, IContact>({
+            query: (payload) => ({
                 url: "/contacts",
                 method: "POST",
-                body: contact,
+                body: payload,
             }),
             invalidatesTags: ["Contact"],
         }),

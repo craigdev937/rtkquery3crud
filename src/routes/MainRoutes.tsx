@@ -12,7 +12,7 @@ export const MainRoutes = (): JSX.Element => (
         <React.Fragment>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/add" element={<AddEdit />} />
+                <Route path="/create" element={<AddEdit />} />
                 <Route path="/edit/:id" element={<AddEdit />} />
                 <Route path="/info/:id" element={<Info />} />
             </Routes>
