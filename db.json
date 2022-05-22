@@ -4,19 +4,19 @@
             "id": 1,
             "name": "Nina Cavazos",
             "email": "nina@ghr.com",
-            "contact": "956561233"
+            "phone": "956561233"
         },
         {
             "id": 2,
             "name": "Kola Franklin",
             "email": "kola@hdq.com",
-            "contact": "9735556655"
+            "phone": "9735556655"
         },
         {
             "id": 3,
             "name": "Elizabeth Tang",
             "email": "liz@hdq.com",
-            "contact": "2123214471"
+            "phone": "2123214471"
         }
     ]
 }

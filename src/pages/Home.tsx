@@ -1,10 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
+import { ContactsAPI } from "../global/ContactsAPI";
 
 export const Home = (): JSX.Element => {
+    const { data } = ContactsAPI.useFetchAllQuery();
+
     return (
         <React.Fragment>
-            <h1>Home</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa impedit voluptatum architecto, dolorem sed quia, facilis ipsam eum expedita itaque, dolorum rem quos quasi. Consequatur quod mollitia laborum qui ipsam.</p>
+            {data?.map((contact) => (
+                <main key={contact.id}>
+                    <h3>{contact.name}</h3>
+                    <p>{contact.email}</p>
+                    <p>{contact.phone}</p>
+                </main>
+            ))}
         </React.Fragment>
     );
 };
