@@ -1,0 +1,38 @@
+{
+  "name": "rtkquery3crud",
+  "version": "1.0.0",
+  "description": "Initial setup of the project.  Created with JSON Server, React, TypeScript, Vite, Router 6, and Redux-Toolkit.",
+  "main": "index.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigomx9/rtkquery3crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigomx9/rtkquery3crud/issues"
+  },
+  "homepage": "https://github.com/indigomx9/rtkquery3crud#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.3.0",
+    "react-toastify": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "@vitejs/plugin-react": "^1.3.2",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9"
+  }
+}
