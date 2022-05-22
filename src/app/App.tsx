@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import { MainRoutes } from "../routes/MainRoutes";
 
 export const App = (): JSX.Element => {
     return (
         <React.Fragment>
-            <h1>App</h1>
+            <MainRoutes />
         </React.Fragment>
     );
 };
